@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <script src="alert.js"></script>
+    
+</head>
+<body>
+<!--external internal inline alert-->
+
+    <h2 onclick="alert('This is an inline js alert')">click to see the inline alert</h2>
+
+    <br>
+
+    <p>internal alert</p>
+    <button onclick="myFunction()">try it</button>
+    <script>
+    function myFunction() {
+        alert("this is internal js alert")
+    }
+    </script>
+
+<script>
+    //number
+    var num = 20;
+    console.log("value of num:",num, "| Type:",typeof num);
+
+    //string
+    let name = "sai";
+    console.log("value of name:",name, "| Type:",typeof name);
+
+    //boolean
+    const falsy = true;
+    console.log("value of falsy:",falsy, "|Type:",typeof falsy);
+
+    //undefined
+    let undefin ;
+    console.log("value of undefin:" ,undefin, "|Type:",typeof undefin);
+
+
+    //null
+    let nullb = null;
+    console.log("value of null:" ,nullb, "|Type:",typeof nullb);
+
+
+    //object
+    let obj = {name: "sai",age: 24};
+    console.log("value of obj:",obj, "|Type:",typeof obj);
+
+
+    //array
+    let arr = [1,2,3,4];
+    console.log("value of arr", arr, "|Type:", typeof arr)
+
+    //function
+    let greet = function()  {return "Hello sai!";};
+    console.log("Value of greet:", greet, "| Type:", typeof greet);
+</script>
+
+
+  
+
+
+</body>
+</html>
